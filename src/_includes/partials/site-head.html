@@ -1,0 +1,37 @@
+<header class="site-head">
+  <a href="#main-content" class="skip-link">Skip to content</a>
+  <div class="wrapper">
+    <div class="site-head__inner">
+      <div class="site-head__brand">
+        <img
+          src="/images/header-image.jpg"
+          width="50"
+          height="50"
+          alt=""
+          aria-hidden="true"
+        />
+        <a href="/" aria-label="{{ site.name }} - home"
+          >Mariela Flores Soprano</a
+        >
+        <!-- <nav aria-label="primary">
+          <ul class="navigation">
+            {% for item in navigation.items %}
+            <li>
+              <a
+                href="{{ item.url }}"
+                {{
+                helpers.getLinkActiveState(item.url,
+                page.url)
+                |
+                safe
+                }}
+                >{{ item.text }}</a
+              >
+            </li>
+            {% endfor %}
+          </ul>
+        </nav> -->
+      </div>
+    </div>
+  </div>
+</header>
